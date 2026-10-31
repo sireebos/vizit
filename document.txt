@@ -1,0 +1,507 @@
+================================================================================
+                    KUWAIT CABIN HOTEL BAR - WEBSITE CONTENT
+================================================================================
+                          Location: Lagos, Nigeria
+                          Currency: Nigerian Naira (₦)
+================================================================================
+
+
+================================================================================
+SITE SETTINGS (Admin > Site Settings)
+================================================================================
+
+Site Name: Kuwait Cabin Hotel Bar
+Header Phone: +234 812 345 6789
+Header Email: info@kuwaitcabinhotel.com
+Header Address: 15 Victoria Island, Lagos, Nigeria
+
+Footer Subtitle: get in touch
+Footer Title: contact us today
+Footer About: Kuwait Cabin Hotel Bar offers an exceptional blend of luxury accommodation and vibrant entertainment in the heart of Lagos. Experience Nigerian hospitality at its finest with world-class amenities and personalized service.
+Footer Phone: +234 812 345 6789
+Footer Email: reservations@kuwaitcabinhotel.com
+Footer Address: 15 Victoria Island, Lagos, Nigeria
+Footer Copyright: © 2024 Kuwait Cabin Hotel Bar. All rights reserved.
+
+Check-In Time: 2:00 PM
+Check-Out Time: 12:00 PM
+Opening Hours: 24 Hours
+
+Social Media:
+- Facebook: https://facebook.com/kuwaitcabinhotel
+- Twitter: https://twitter.com/kuwaitcabinhotel
+- Instagram: https://instagram.com/kuwaitcabinhotel
+- TripAdvisor: https://tripadvisor.com/kuwaitcabinhotel
+
+Notification Email: admin@kuwaitcabinhotel.com
+
+
+================================================================================
+HOME PAGE (Admin > Home Page)
+================================================================================
+
+SEO Title: Kuwait Cabin Hotel Bar - Luxury Accommodation in Lagos, Nigeria
+SEO Description: Experience unparalleled luxury at Kuwait Cabin Hotel Bar in Lagos. Premium rooms, exquisite dining, refreshing pool, and world-class bar services await you.
+
+--- HERO SECTION ---
+Hero Title: Experience<br>True Luxury
+
+--- INTRO SECTION ---
+Intro Subtitle: Kuwait Cabin Hotel
+Intro Title: Welcome to a World of Elegance
+Intro Text: Nestled in the vibrant heart of Victoria Island, Lagos, Kuwait Cabin Hotel Bar redefines luxury hospitality in Nigeria. Our establishment combines sophisticated accommodation with exceptional dining and entertainment, creating an unforgettable experience for business and leisure travelers alike. From our meticulously designed rooms to our world-class restaurant and bar, every detail is crafted to exceed your expectations.
+
+--- FEATURE 1 (Pool Suite) ---
+Feature 1 Label: executive suite
+Feature 1 Title: Executive Suite
+Feature 1 Text: Indulge in spacious elegance with our Executive Suite featuring a private balcony, premium bedding, marble bathroom, and stunning city views. Perfect for discerning guests who appreciate the finer things in life.
+Feature 1 Button Text: check availability
+
+--- FEATURE 2 (Sea View) ---
+Feature 2 Label: deluxe room
+Feature 2 Title: Deluxe Room
+Feature 2 Text: Our Deluxe Rooms offer the perfect balance of comfort and style. Enjoy modern amenities, plush furnishings, and thoughtful touches that make your stay memorable. Ideal for both business and leisure travelers.
+Feature 2 Button Text: check availability
+
+--- SERVICES GRID ---
+Service 1 Title: Spa & Wellness
+Service 2 Title: Restaurant
+Service 3 Title: Swimming Pool
+Service 4 Title: Bar & Lounge
+
+--- AMENITIES SECTION ---
+Amenities Subtitle: premium amenities
+Amenities Title: Luxury at Every Turn
+
+Amenity 1 Title: Smoke-Free Rooms
+Amenity 1 Text: All our rooms and public areas are smoke-free, ensuring a clean and fresh environment for all guests. Designated smoking areas are available for your convenience.
+
+Amenity 2 Title: Premium King Beds
+Amenity 2 Text: Rest peacefully on our premium king-sized beds featuring Egyptian cotton linens, memory foam mattresses, and luxury pillows for the ultimate sleep experience.
+
+Amenity 3 Title: Airport Transfer
+Amenity 3 Text: Complimentary airport pickup and drop-off services available for all guests. Our professional drivers ensure a comfortable journey to and from Murtala Muhammed International Airport.
+
+Amenity 4 Title: Welcome Drinks
+Amenity 4 Text: Start your stay with a refreshing complimentary welcome drink served upon arrival. Choose from our selection of fresh juices, cocktails, or premium beverages.
+
+Amenity 5 Title: Swimming Pool
+Amenity 5 Text: Dive into relaxation at our stunning rooftop swimming pool. Enjoy panoramic city views, poolside service, and a refreshing escape from Lagos's tropical heat.
+
+Amenity 6 Title: Breakfast Included
+Amenity 6 Text: Wake up to a lavish breakfast buffet featuring Nigerian and continental options. Fresh fruits, pastries, hot dishes, and premium coffee await you each morning.
+
+--- ROOMS SECTION ---
+Rooms Subtitle: accommodation
+Rooms Title: Our Premium Rooms
+
+Room 1 Name: Royal Suite
+Room 1 Type: Presidential Suite
+Room 1 Text: The pinnacle of luxury with separate living area, dining room, private bar, and panoramic Lagos views. Perfect for VIP guests and special occasions.
+Room 1 Price: book from ₦250,000
+
+Room 2 Name: Executive Suite
+Room 2 Type: Business Suite
+Room 2 Text: Spacious suite with work desk, meeting area, and premium amenities. Ideal for business executives seeking comfort and productivity.
+Room 2 Price: book from ₦150,000
+
+Room 3 Name: Deluxe Room
+Room 3 Type: Superior Room
+Room 3 Text: Elegantly appointed room with modern amenities, comfortable bedding, and city views. Perfect for couples and solo travelers.
+Room 3 Price: book from ₦85,000
+
+Room 4 Name: Standard Room
+Room 4 Type: Classic Room
+Room 4 Text: Comfortable and well-equipped room offering excellent value. Features all essential amenities for a pleasant stay.
+Room 4 Price: book from ₦55,000
+
+--- TESTIMONIALS/QUOTES ---
+Quote 1 Text: The service at Kuwait Cabin Hotel Bar exceeded all my expectations. From check-in to checkout, every staff member made me feel like royalty. I'll definitely return!
+Quote 1 Author: Chief Emeka Okonkwo, Lagos
+
+Quote 2 Text: As a frequent business traveler, I've stayed at many hotels in Lagos. Kuwait Cabin stands out for its attention to detail, excellent restaurant, and professional staff.
+Quote 2 Author: Dr. Amina Ibrahim, Abuja
+
+Quote 3 Text: We celebrated our anniversary at Kuwait Cabin Hotel Bar and it was magical. The room was beautiful, the food was exceptional, and the atmosphere was perfect.
+Quote 3 Author: Mr. & Mrs. Adeyemi, Port Harcourt
+
+--- VIDEO SECTION ---
+Video Title: Discover Our Story
+Video Subtitle: virtual tour, 2:30 min
+
+--- RESTAURANTS SECTION ---
+Restaurants Subtitle: fine dining
+Restaurants Title: Culinary Excellence
+
+Restaurant 1 Title: The Cabin Restaurant
+Restaurant 1 Text: Experience culinary artistry at The Cabin Restaurant. Our expert chefs blend Nigerian flavors with international techniques to create unforgettable dishes using the freshest local ingredients.
+Restaurant 1 Button: view menu
+
+Restaurant 2 Title: Skyline Bar & Lounge
+Restaurant 2 Text: Unwind at our rooftop Skyline Bar with craft cocktails, premium spirits, and stunning Lagos skyline views. Live entertainment on weekends creates the perfect atmosphere.
+Restaurant 2 Button: explore bar
+
+
+================================================================================
+ABOUT PAGE (Admin > About Page)
+================================================================================
+
+SEO Title: About Us - Kuwait Cabin Hotel Bar | Our Story
+SEO Description: Learn about Kuwait Cabin Hotel Bar's commitment to excellence in hospitality. Discover our story, values, and dedication to providing exceptional guest experiences in Lagos.
+
+--- HERO SECTION ---
+Hero Title: Our Story
+
+--- VIDEO PRESENTATION ---
+Video Subtitle: A Legacy of Excellence
+Video Duration: our story, 3:15 min
+
+--- ABOUT SERVICES SECTION ---
+About Services Subtitle: why choose us
+About Services Title: Exceptional Hospitality
+
+Service 1 Title: Welcome Experience
+Service 1 Text: From the moment you arrive, our dedicated team ensures a warm Nigerian welcome. Complimentary drinks, swift check-in, and personalized attention set the tone for your stay.
+
+Service 2 Title: Premium Facilities
+Service 2 Text: Our world-class swimming pool, state-of-the-art gym, and luxurious spa services provide everything you need for relaxation and rejuvenation during your stay.
+
+Service 3 Title: Culinary Excellence
+Service 3 Text: Our restaurants serve a fusion of Nigerian delicacies and international cuisine. All meals are prepared with fresh, locally-sourced ingredients by our award-winning chefs.
+
+--- FEATURES PAIR ---
+Feature 1 Label: luxury suites
+Feature 1 Title: Uncompromising Comfort
+Feature 1 Text: Every room at Kuwait Cabin Hotel Bar is designed with your comfort in mind. From premium bedding to modern technology, we've thoughtfully curated every detail. Our spacious suites feature separate living areas, work desks, and stunning views of Lagos.
+
+Feature 2 Label: world-class service
+Feature 2 Title: Service Excellence
+Feature 2 Text: Our professionally trained staff are available 24/7 to cater to your every need. Whether it's arranging transportation, making restaurant reservations, or fulfilling special requests, we go above and beyond to ensure your satisfaction.
+
+--- TESTIMONIALS ---
+Quote 1 Text: Kuwait Cabin Hotel Bar represents the best of Nigerian hospitality. The staff's attention to detail and genuine warmth made my business trip feel like a vacation.
+Quote 1 Author: Ambassador James Oluwole
+
+Quote 2 Text: I've been coming here for years and the consistency in quality is remarkable. The rooms are always immaculate, and the food never disappoints. Highly recommended!
+Quote 2 Author: Senator Patricia Nwosu
+
+Quote 3 Text: For our corporate events, we choose Kuwait Cabin without hesitation. Their event planning team is exceptional, and the facilities are world-class.
+Quote 3 Author: CEO Michael Okafor, TechVentures Nigeria
+
+
+================================================================================
+CONTACT PAGE (Admin > Contact Page)
+================================================================================
+
+SEO Title: Contact Us - Kuwait Cabin Hotel Bar Lagos
+SEO Description: Get in touch with Kuwait Cabin Hotel Bar. Contact us for reservations, inquiries, or to plan your perfect stay in Lagos, Nigeria.
+
+--- HERO SECTION ---
+Hero Title: Contact Us
+
+--- VIDEO SECTION ---
+Video Tagline: We're Here to Help
+Video Label: contact overview, 1:30 min
+
+--- CONTACT FORM SECTION ---
+Form Subtitle: reach out to us
+Form Title: Send Us a Message
+
+--- CONTACT INFO ---
+Info Address: 15 Victoria Island, Lagos, Nigeria
+Info City: Lagos
+Info Phone: +234 812 345 6789
+Info Email: reservations@kuwaitcabinhotel.com
+Info Check-In: 2:00 PM
+Info Check-Out: 12:00 PM
+Info Hours: 24 Hours Daily
+
+Newsletter Button: subscribe now
+
+
+================================================================================
+SERVICES PAGE (Admin > Services Page)
+================================================================================
+
+SEO Title: Our Services - Kuwait Cabin Hotel Bar
+SEO Description: Discover the premium services at Kuwait Cabin Hotel Bar including spa, restaurant, pool, fitness center, and more. Experience luxury hospitality in Lagos.
+
+--- HERO SECTION ---
+Hero Title: Our Services
+
+--- VIDEO SECTION ---
+Video Tagline: Excellence in Every Detail
+Video Label: services overview, 2:00 min
+
+--- SERVICES BOXES ---
+Services Subtitle: premium offerings
+Services Title: World-Class Amenities
+
+Box 1 Title: Smoke-Free Environment
+Box 1 Description: Breathe easy in our completely smoke-free rooms and common areas. We maintain the highest air quality standards for your health and comfort. Designated outdoor smoking areas available.
+
+Box 2 Title: Luxury Bedding
+Box 2 Description: Sink into our premium king-sized beds featuring 400-thread count Egyptian cotton sheets, plush duvets, and a pillow menu to customize your perfect night's sleep.
+
+Box 3 Title: Airport Transfers
+Box 3 Description: Enjoy complimentary luxury airport transfers in our air-conditioned vehicles. Our professional drivers track your flight and ensure punctual pickup and drop-off services.
+
+Box 4 Title: Welcome Refreshments
+Box 4 Description: Begin your stay with our signature welcome drink service. Choose from fresh tropical juices, premium wines, or expertly crafted cocktails upon arrival.
+
+Box 5 Title: Rooftop Pool
+Box 5 Description: Our stunning rooftop infinity pool offers breathtaking Lagos skyline views. Enjoy poolside service, comfortable loungers, and a refreshing escape from the city heat.
+
+Box 6 Title: Gourmet Dining
+Box 6 Description: Savor culinary excellence at our on-site restaurants. From traditional Nigerian dishes to international cuisine, our chefs create memorable dining experiences.
+
+--- SERVICE OFFERS ---
+Offers Subtitle: exclusive services
+Offers Title: What We Offer
+
+Service 1 Title: Spa & Wellness Center
+Service 1 Description: Rejuvenate your body and mind at our full-service spa. Enjoy professional massages, facials, body treatments, and aromatherapy sessions delivered by skilled therapists.
+
+Service 2 Title: The Cabin Restaurant
+Service 2 Description: Our flagship restaurant serves breakfast, lunch, and dinner daily. Experience a blend of Nigerian and continental cuisine prepared with the freshest ingredients by our award-winning culinary team.
+
+Service 3 Title: Swimming Pool & Deck
+Service 3 Description: Our rooftop pool area features a heated infinity pool, private cabanas, and a poolside bar. Perfect for relaxation or hosting intimate gatherings with stunning city views.
+
+Service 4 Title: Fitness & Recreation
+Service 4 Description: Stay active in our fully-equipped fitness center featuring modern cardio machines, free weights, and personal training services. Open 24 hours for your convenience.
+
+
+================================================================================
+RESTAURANT PAGE (Admin > Restaurant Page)
+================================================================================
+
+SEO Title: Restaurant & Dining - Kuwait Cabin Hotel Bar
+SEO Description: Enjoy exceptional dining at Kuwait Cabin Hotel Bar. Our restaurants serve authentic Nigerian cuisine and international dishes prepared by expert chefs.
+
+--- HERO SECTION ---
+Hero Title: Restaurant
+
+--- VIDEO SECTION ---
+Video Tagline: Culinary Excellence Awaits
+
+--- MENU SECTION ---
+Menu Subtitle: our specialties
+Menu Title: Featured Menu
+
+--- SAMPLE MENU ITEMS (Add via Admin > Food Menu) ---
+
+Nigerian Cuisine:
+- Jollof Rice with Grilled Chicken: ₦4,500 (Aromatic rice cooked in rich tomato sauce, served with perfectly grilled chicken)
+- Pounded Yam with Egusi Soup: ₦5,200 (Traditional pounded yam served with melon seed soup and assorted meat)
+- Pepper Soup (Goat Meat): ₦4,800 (Spicy traditional soup with tender goat meat and local spices)
+- Suya Platter: ₦6,500 (Assorted grilled beef skewers with spicy peanut coating and fresh onions)
+- Ofada Rice with Ayamase: ₦4,200 (Local rice with designer stew and assorted proteins)
+
+Continental Cuisine:
+- Grilled Atlantic Salmon: ₦12,500 (Fresh salmon fillet with herb butter, seasonal vegetables, and rice)
+- Beef Tenderloin Steak: ₦15,800 (Prime beef cooked to perfection with mushroom sauce and sides)
+- Caesar Salad: ₦3,800 (Crisp romaine lettuce, parmesan, croutons, and house-made dressing)
+- Club Sandwich: ₦4,200 (Triple-decker with grilled chicken, bacon, lettuce, tomato, and fries)
+- Seafood Pasta: ₦8,500 (Linguine with prawns, calamari, mussels in white wine sauce)
+
+Desserts:
+- Chocolate Lava Cake: ₦3,200 (Warm chocolate cake with molten center and vanilla ice cream)
+- Fresh Fruit Platter: ₦2,500 (Selection of seasonal tropical fruits)
+- Cheesecake: ₦2,800 (New York style with berry compote)
+
+
+================================================================================
+ROOMS PAGE (Admin > Rooms Page)
+================================================================================
+
+SEO Title: Rooms & Suites - Kuwait Cabin Hotel Bar
+SEO Description: Browse our luxurious rooms and suites at Kuwait Cabin Hotel Bar. From standard rooms to presidential suites, find your perfect accommodation in Lagos.
+
+--- HERO SECTION ---
+Hero Title: Our Rooms
+
+--- ROOM TYPES (Add via Admin > Room Types) ---
+
+1. Royal Presidential Suite
+   Price: ₦250,000/night
+   Description: Our most luxurious accommodation featuring a spacious living room, private dining area, executive office, master bedroom with king bed, marble bathroom with Jacuzzi, and personal butler service. Includes panoramic Lagos skyline views, complimentary minibar, and exclusive lounge access.
+   Amenities: King Bed, Jacuzzi, Private Dining, Butler Service, Lounge Access, City Views
+
+2. Executive Suite
+   Price: ₦150,000/night
+   Description: Perfect for business travelers and those seeking extra space. Features separate living area, work desk with high-speed WiFi, king-sized bed, marble bathroom with rain shower, and stunning city views. Includes breakfast and lounge access.
+   Amenities: King Bed, Living Room, Work Desk, Rain Shower, Lounge Access, Breakfast
+
+3. Deluxe Room
+   Price: ₦85,000/night
+   Description: Elegantly appointed room offering the perfect blend of comfort and style. Features king or twin beds, modern bathroom, flat-screen TV, in-room safe, and city views. Complimentary breakfast included.
+   Amenities: King/Twin Beds, Flat-screen TV, Safe, WiFi, City Views, Breakfast
+
+4. Standard Room
+   Price: ₦55,000/night
+   Description: Comfortable and well-appointed room perfect for budget-conscious travelers. Features queen bed, en-suite bathroom, TV, air conditioning, and all essential amenities for a pleasant stay.
+   Amenities: Queen Bed, AC, TV, WiFi, En-suite Bathroom
+
+
+================================================================================
+EXPLORE PAGE (Admin > Explore Page)
+================================================================================
+
+SEO Title: Explore Lagos - Kuwait Cabin Hotel Bar
+SEO Description: Discover the best of Lagos from Kuwait Cabin Hotel Bar. Explore nearby attractions, beaches, shopping centers, and entertainment venues.
+
+--- HERO SECTION ---
+Hero Title: Explore Lagos
+
+--- INTRO SECTION ---
+Intro Text: Lagos is a vibrant metropolis that never sleeps. From world-class beaches to bustling markets, historic landmarks to modern entertainment venues, there's always something exciting to discover. Kuwait Cabin Hotel Bar is perfectly positioned in Victoria Island, placing you at the heart of Lagos's most exciting attractions. Let us be your base for exploring everything this incredible city has to offer.
+
+--- FEATURES SECTION ---
+Night Life Caption: vibrant nightlife
+City View Caption: stunning cityscape
+
+--- NEARBY ATTRACTIONS ---
+
+Beaches:
+- Elegushi Beach (10 minutes) - Popular beach resort with restaurants and water activities
+- Tarkwa Bay (30 minutes by boat) - Serene beach accessible only by water
+- La Campagne Tropicana (1 hour) - African-themed beach resort
+
+Shopping:
+- The Palms Shopping Mall (5 minutes) - Premium shopping and entertainment complex
+- Ikeja City Mall (30 minutes) - Largest mall in Nigeria with international brands
+- Lekki Arts & Crafts Market (15 minutes) - Traditional Nigerian arts and souvenirs
+
+Entertainment:
+- Freedom Park (20 minutes) - Historic park with live music and cultural events
+- Nike Art Gallery (25 minutes) - Largest art gallery in West Africa
+- GET Arena (10 minutes) - Premier entertainment and event venue
+
+Business Districts:
+- Victoria Island Business District (5 minutes)
+- Ikoyi (10 minutes)
+- Lagos Island (15 minutes)
+
+
+================================================================================
+TERMS & CONDITIONS PAGE (Admin > T&C Page)
+================================================================================
+
+SEO Title: Terms & Conditions - Kuwait Cabin Hotel Bar
+SEO Description: Read the terms and conditions for staying at Kuwait Cabin Hotel Bar. Learn about our booking policies, cancellation rules, and guest guidelines.
+
+--- HERO SECTION ---
+Hero Title: Terms & Conditions
+
+--- FAQ SECTION ---
+FAQ Subtitle: frequently asked questions
+FAQ Title: Hotel Policies
+
+FAQ 1 Question: What is your cancellation policy?
+FAQ 1 Answer: Cancellations made 48 hours or more before check-in receive a full refund. Cancellations within 48 hours of check-in are charged one night's stay. No-shows are charged the full booking amount. For group bookings of 5 rooms or more, cancellation must be made 7 days in advance for a full refund. Peak season and holiday bookings may have different cancellation terms which will be communicated at the time of booking.
+
+FAQ 2 Question: What are the check-in and check-out times?
+FAQ 2 Answer: Standard check-in time is 2:00 PM and check-out time is 12:00 PM (noon). Early check-in and late check-out may be arranged subject to availability and may incur additional charges. For early arrivals, we recommend booking the previous night to guarantee room availability. Express check-out is available for guests with valid credit cards on file.
+
+FAQ 3 Question: What is your refund policy?
+FAQ 3 Answer: Refunds for cancellations are processed within 7-10 business days to the original payment method. Prepaid bookings cancelled within policy receive full refunds minus any applicable booking fees. Refunds for special promotions or discounted rates may have different terms. Incidental charges and minibar expenses are non-refundable and settled at check-out.
+
+FAQ 4 Question: Do I need to print my booking confirmation?
+FAQ 4 Answer: No, you don't need to print your confirmation. Simply present your booking confirmation number and a valid government-issued ID at check-in. You can show the confirmation email on your mobile device. For corporate bookings, the authorized booker's details should match the check-in documents.
+
+FAQ 5 Question: How do I join your loyalty program?
+FAQ 5 Answer: Our Kuwait Cabin Rewards program is free to join. Simply request enrollment at check-in or visit our website to sign up. Members earn points on room stays, dining, and spa services that can be redeemed for free nights, upgrades, and exclusive experiences. Benefits include member-only rates, priority check-in, late check-out privileges, and special birthday rewards.
+
+
+================================================================================
+GALLERY PAGE
+================================================================================
+
+SEO Title: Gallery - Kuwait Cabin Hotel Bar
+SEO Description: View photos of Kuwait Cabin Hotel Bar including our luxurious rooms, restaurant, pool, bar, and facilities. See why we're Lagos's premier hotel.
+
+--- Recommended Gallery Categories ---
+- Rooms & Suites
+- Restaurant & Dining
+- Swimming Pool
+- Bar & Lounge
+- Spa & Wellness
+- Events & Meetings
+- Exterior & Lobby
+
+
+================================================================================
+ADDITIONAL CONTENT FOR DATABASE SEEDING
+================================================================================
+
+--- WEBSITE SETTINGS TABLE ---
+site_name: Kuwait Cabin Hotel Bar
+site_description: Luxury hotel and bar in Victoria Island, Lagos. Experience world-class accommodation, fine dining, and exceptional service.
+hero_title: Experience True Luxury
+hero_subtitle: Your Home Away From Home
+hero_description: Discover unparalleled hospitality at Kuwait Cabin Hotel Bar
+phone: +234 812 345 6789
+email: info@kuwaitcabinhotel.com
+address: 15 Victoria Island, Lagos, Nigeria
+facebook_url: https://facebook.com/kuwaitcabinhotel
+instagram_url: https://instagram.com/kuwaitcabinhotel
+twitter_url: https://twitter.com/kuwaitcabinhotel
+meta_description: Kuwait Cabin Hotel Bar - Premier luxury accommodation in Lagos, Nigeria. Book your stay today!
+meta_keywords: lagos hotel, victoria island hotel, nigeria luxury hotel, lagos accommodation, kuwait cabin hotel
+
+
+================================================================================
+EMAIL TEMPLATES
+================================================================================
+
+--- BOOKING CONFIRMATION EMAIL ---
+Subject: Booking Confirmation - Kuwait Cabin Hotel Bar
+
+Dear [Guest Name],
+
+Thank you for choosing Kuwait Cabin Hotel Bar. Your reservation has been confirmed!
+
+Booking Details:
+- Confirmation Number: [Number]
+- Check-in: [Date] at 2:00 PM
+- Check-out: [Date] at 12:00 PM
+- Room Type: [Room Type]
+- Total Amount: ₦[Amount]
+
+Hotel Address:
+15 Victoria Island, Lagos, Nigeria
+
+Contact Us:
+Phone: +234 812 345 6789
+Email: reservations@kuwaitcabinhotel.com
+
+We look forward to welcoming you!
+
+Warm regards,
+Kuwait Cabin Hotel Bar Team
+
+
+--- NEWSLETTER WELCOME EMAIL ---
+Subject: Welcome to Kuwait Cabin Hotel Bar Newsletter
+
+Dear Subscriber,
+
+Thank you for subscribing to our newsletter! You'll now receive exclusive offers, updates on special events, and the latest news from Kuwait Cabin Hotel Bar.
+
+As a thank you, enjoy 10% off your next direct booking using code: WELCOME10
+
+Stay connected:
+- Website: www.kuwaitcabinhotel.com
+- Phone: +234 812 345 6789
+- Email: info@kuwaitcabinhotel.com
+
+Warm regards,
+Kuwait Cabin Hotel Team
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+

@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vermon Hotel & Bar - Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a1a2e;
+            --secondary-color: #c9a962;
+            --accent-color: #16213e;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+        }
+        
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background: var(--primary-color);
+            padding: 20px 0;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        
+        .sidebar-brand {
+            padding: 20px 25px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .sidebar-brand h4 {
+            color: var(--secondary-color);
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .sidebar-brand span {
+            color: rgba(255,255,255,0.6);
+            font-size: 12px;
+        }
+        
+        .sidebar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .sidebar-nav li a {
+            display: block;
+            padding: 12px 25px;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s;
+            border-left: 3px solid transparent;
+        }
+        
+        .sidebar-nav li a:hover,
+        .sidebar-nav li a.active {
+            color: #fff;
+            background: rgba(255,255,255,0.05);
+            border-left-color: var(--secondary-color);
+        }
+        
+        .sidebar-nav li a i {
+            width: 20px;
+            margin-right: 10px;
+        }
+        
+        .nav-section {
+            padding: 15px 25px 5px;
+            color: var(--secondary-color);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Main Content */
+        .main-content {
+            margin-left: 280px;
+            padding: 40px 50px;
+            min-height: 100vh;
+        }
+        
+        .doc-section {
+            padding: 30px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .doc-section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--secondary-color);
+            display: inline-block;
+        }
+        
+        .subsection-title {
+            color: var(--accent-color);
+            font-weight: 600;
+            margin: 30px 0 15px;
+        }
+        
+        /* Code blocks */
+        pre {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        code {
+            background: #f1f1f1;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #e83e8c;
+        }
+        
+        pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+        
+        /* Alert boxes */
+        .alert-box {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid;
+        }
+        
+        .alert-info {
+            background: #e7f3ff;
+            border-color: #0066cc;
+        }
+        
+        .alert-warning {
+            background: #fff8e6;
+            border-color: #ffc107;
+        }
+        
+        .alert-success {
+            background: #e6f7e6;
+            border-color: #28a745;
+        }
+        
+        .alert-danger {
+            background: #ffe6e6;
+            border-color: #dc3545;
+        }
+        
+        /* Tables */
+        .doc-table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        
+        .doc-table th,
+        .doc-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #dee2e6;
+        }
+        
+        .doc-table th {
+            background: var(--primary-color);
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .doc-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        /* Feature list */
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .feature-list li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+        }
+        
+        /* Steps */
+        .step {
+            display: flex;
+            margin: 20px 0;
+        }
+        
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--secondary-color);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-content h5 {
+            margin: 0 0 10px;
+            color: var(--primary-color);
+        }
+        
+        /* File tree */
+        .file-tree {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        
+        .file-tree ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+        }
+        
+        .file-tree > ul {
+            padding-left: 0;
+        }
+        
+        .file-tree li {
+            padding: 3px 0;
+        }
+        
+        .file-tree .folder {
+            color: var(--secondary-color);
+        }
+        
+        .file-tree .file {
+            color: #666;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s;
+            }
+            
+            .sidebar.active {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+            
+            .mobile-toggle {
+                display: block !important;
+            }
+        }
+        
+        .mobile-toggle {
+            display: none;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            background: var(--primary-color);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        /* Images */
+        .doc-image {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        
+        /* Badge */
+        .badge-version {
+            background: var(--secondary-color);
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mobile Toggle -->
+    <button class="mobile-toggle" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <h4>Vermon Hotel</h4>
+            <span>Documentation v1.0</span>
+        </div>
+        
+        <div class="nav-section">Getting Started</div>
+        <ul class="sidebar-nav">
+            <li><a href="#introduction" class="active"><i class="fas fa-home"></i> Introduction</a></li>
+            <li><a href="#requirements"><i class="fas fa-server"></i> Requirements</a></li>
+            <li><a href="#installation"><i class="fas fa-download"></i> Installation</a></li>
+            <li><a href="#configuration"><i class="fas fa-cog"></i> Configuration</a></li>
+        </ul>
+        
+        <div class="nav-section">Admin Panel</div>
+        <ul class="sidebar-nav">
+            <li><a href="#admin-login"><i class="fas fa-sign-in-alt"></i> Admin Login</a></li>
+            <li><a href="#dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+            <li><a href="#page-management"><i class="fas fa-file-alt"></i> Page Management</a></li>
+            <li><a href="#site-settings"><i class="fas fa-sliders-h"></i> Site Settings</a></li>
+            <li><a href="#theme-settings"><i class="fas fa-palette"></i> Theme Settings</a></li>
+        </ul>
+        
+        <div class="nav-section">Features</div>
+        <ul class="sidebar-nav">
+            <li><a href="#cms-features"><i class="fas fa-edit"></i> CMS Features</a></li>
+            <li><a href="#services-management"><i class="fas fa-concierge-bell"></i> Services</a></li>
+            <li><a href="#room-management"><i class="fas fa-bed"></i> Room Management</a></li>
+            <li><a href="#booking-system"><i class="fas fa-calendar-check"></i> Booking System</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+        </ul>
+        
+        <div class="nav-section">Advanced</div>
+        <ul class="sidebar-nav">
+            <li><a href="#security"><i class="fas fa-shield-alt"></i> Security</a></li>
+            <li><a href="#api"><i class="fas fa-code"></i> API Reference</a></li>
+            <li><a href="#customization"><i class="fas fa-paint-brush"></i> Customization</a></li>
+        </ul>
+        
+        <div class="nav-section">Support</div>
+        <ul class="sidebar-nav">
+            <li><a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+            <li><a href="#troubleshooting"><i class="fas fa-wrench"></i> Troubleshooting</a></li>
+            <li><a href="#changelog"><i class="fas fa-history"></i> Changelog</a></li>
+            <li><a href="#support"><i class="fas fa-life-ring"></i> Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Introduction -->
+        <section id="introduction" class="doc-section">
+            <h2 class="section-title">Introduction</h2>
+            <p>Thank you for purchasing <strong>Vermon Hotel & Bar</strong> - a premium Laravel 12 hotel management system with a powerful CMS. This documentation will guide you through the installation, configuration, and usage of all features.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4 class="subsection-title">Key Features</h4>
+                    <ul class="feature-list">
+                        <li>Laravel 12 Framework</li>
+                        <li>Full CMS with Page Editor</li>
+                        <li>Drag & Drop Section Ordering</li>
+                        <li>Room & Booking Management</li>
+                        <li>Responsive Design</li>
+                        <li>SEO Optimized</li>
+                        <li>Multi-Currency Support</li>
+                        <li>Theme Customization</li>
+                        <li>Role-Based Access Control</li>
+                        <li>Secure Authentication</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="subsection-title">What's Included</h4>
+                    <ul class="feature-list">
+                        <li>Full Source Code</li>
+                        <li>Database Migrations</li>
+                        <li>Sample Content Seeders</li>
+                        <li>Documentation</li>
+                        <li>Installation Wizard</li>
+                        <li>6 Months Support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requirements -->
+        <section id="requirements" class="doc-section">
+            <h2 class="section-title">Server Requirements</h2>
+            <p>Before installation, ensure your server meets the following requirements:</p>
+            
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>Requirement</th>
+                        <th>Minimum Version</th>
+                        <th>Recommended</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PHP</td>
+                        <td>8.2</td>
+                        <td>8.3+</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                        <td>5.7</td>
+                        <td>8.0+</td>
+                    </tr>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>18.x</td>
+                        <td>20.x+</td>
+                    </tr>
+                    <tr>
+                        <td>Composer</td>
+                        <td>2.x</td>
+                        <td>2.6+</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4 class="subsection-title">Required PHP Extensions</h4>
+            <ul class="feature-list">
+                <li>BCMath PHP Extension</li>
+                <li>Ctype PHP Extension</li>
+                <li>JSON PHP Extension</li>
+                <li>Mbstring PHP Extension</li>
+                <li>OpenSSL PHP Extension</li>
+                <li>PDO PHP Extension</li>
+                <li>Tokenizer PHP Extension</li>
+                <li>XML PHP Extension</li>
+                <li>Fileinfo PHP Extension</li>
+                <li>GD PHP Extension (for image processing)</li>
+            </ul>
+        </section>
+
+        <!-- Installation -->
+        <section id="installation" class="doc-section">
+            <h2 class="section-title">Installation</h2>
+            
+            <h4 class="subsection-title">Method 1: Installation Wizard (Recommended)</h4>
+            <p>The easiest way to install Vermon Hotel is using the built-in installation wizard:</p>
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h5>Upload Files</h5>
+                    <p>Upload all files to your web server's public directory (e.g., <code>public_html</code> or <code>www</code>).</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h5>Set Permissions</h5>
+                    <p>Set the following directories to writable (chmod 755 or 775):</p>
+                    <pre><code>chmod -R 755 storage
+chmod -R 755 bootstrap/cache</code></pre>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h5>Access Installation Wizard</h5>
+                    <p>Navigate to <code>https://yourdomain.com/install</code> in your browser and follow the steps.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h5>Configure Database</h5>
+                    <p>Enter your database credentials (host, database name, username, password).</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h5>Create Admin Account</h5>
+                    <p>Set up your admin email and password for accessing the admin panel.</p>
+                </div>
+            </div>
+            
+            <div class="alert-box alert-success">
+                <strong>✓ Done!</strong> After completing the wizard, you can access the admin panel at <code>/admin</code>
+            </div>
+            
+            <h4 class="subsection-title">Method 2: Manual Installation (Developers)</h4>
+            
+            <pre><code># Clone/extract files
+cd your-project-folder
+
+# Install PHP dependencies
+composer install
+
+# Copy environment file
+cp .env.example .env
+
+# Generate application key
+php artisan key:generate
+
+# Configure database in .env file
+# DB_CONNECTION=mysql
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=your_database
+# DB_USERNAME=your_username
+# DB_PASSWORD=your_password
+
+# Run migrations
+php artisan migrate
+
+# Seed initial content
+php artisan db:seed
+
+# Install frontend dependencies
+npm install
+
+# Build assets
+npm run build
+
+# Set permissions
+chmod -R 755 storage bootstrap/cache
+
+# Create storage link
+php artisan storage:link</code></pre>
+        </section>
+
+        <!-- Configuration -->
+        <section id="configuration" class="doc-section">
+            <h2 class="section-title">Configuration</h2>
+            
+            <h4 class="subsection-title">Environment Variables</h4>
+            <p>All configuration is managed through the <code>.env</code> file:</p>
+            
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>Variable</th>
+                        <th>Description</th>
+                        <th>Default</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>APP_NAME</code></td>
+                        <td>Your hotel name</td>
+                        <td>Vermon Hotel & Bar</td>
+                    </tr>
+                    <tr>
+                        <td><code>APP_URL</code></td>
+                        <td>Your website URL</td>
+                        <td>http://localhost</td>
+                    </tr>
+                    <tr>
+                        <td><code>APP_DEBUG</code></td>
+                        <td>Debug mode (set to false in production)</td>
+                        <td>true</td>
+                    </tr>
+                    <tr>
+                        <td><code>DB_CONNECTION</code></td>
+                        <td>Database driver</td>
+                        <td>mysql</td>
+                    </tr>
+                    <tr>
+                        <td><code>CURRENCY</code></td>
+                        <td>Default currency code</td>
+                        <td>USD</td>
+                    </tr>
+                    <tr>
+                        <td><code>CURRENCY_SYMBOL</code></td>
+                        <td>Currency symbol</td>
+                        <td>$</td>
+                    </tr>
+                    <tr>
+                        <td><code>TAX_RATE</code></td>
+                        <td>Tax percentage</td>
+                        <td>10.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4 class="subsection-title">Hotel Configuration</h4>
+            <p>Hotel-specific settings are in <code>config/hotel.php</code>:</p>
+            
+            <pre><code>// config/hotel.php
+return [
+    'currency' => env('CURRENCY', 'USD'),
+    'currency_symbol' => env('CURRENCY_SYMBOL', '$'),
+    'tax_rate' => env('TAX_RATE', 10.00),
+    'booking' => [
+        'check_in_time' => env('CHECK_IN_TIME', '14:00'),
+        'check_out_time' => env('CHECK_OUT_TIME', '11:00'),
+        'advance_days' => env('BOOKING_ADVANCE_DAYS', 365),
+        'cancellation_hours' => env('CANCELLATION_HOURS', 24),
+    ],
+];</code></pre>
+        </section>
+
+        <!-- Admin Login -->
+        <section id="admin-login" class="doc-section">
+            <h2 class="section-title">Admin Login</h2>
+            
+            <p>Access the admin panel at: <code>https://yourdomain.com/admin</code></p>
+            
+            <div class="alert-box alert-info">
+                <strong>Default Credentials (after installation wizard):</strong><br>
+                Email: The email you entered during installation<br>
+                Password: The password you set during installation
+            </div>
+            
+            <h4 class="subsection-title">Security Features</h4>
+            <ul class="feature-list">
+                <li>Rate limiting: 5 login attempts per 15 minutes</li>
+                <li>Session encryption enabled</li>
+                <li>CSRF protection on all forms</li>
+                <li>HTTP-only secure cookies</li>
+                <li>Automatic session regeneration on login</li>
+            </ul>
+        </section>
+
+        <!-- Dashboard -->
+        <section id="dashboard" class="doc-section">
+            <h2 class="section-title">Dashboard</h2>
+            
+            <p>The admin dashboard provides an overview of your hotel's key metrics and quick access to all management features.</p>
+            
+            <h4 class="subsection-title">Dashboard Overview</h4>
+            <ul class="feature-list">
+                <li><strong>Bookings Summary</strong> - Total, pending, and confirmed bookings</li>
+                <li><strong>Room Occupancy</strong> - Current occupancy rate and availability</li>
+                <li><strong>Revenue Stats</strong> - Daily, weekly, and monthly revenue</li>
+                <li><strong>Recent Activity</strong> - Latest bookings and guest check-ins</li>
+            </ul>
+            
+            <h4 class="subsection-title">Quick Actions</h4>
+            <ul class="feature-list">
+                <li>Create new booking</li>
+                <li>Add new guest</li>
+                <li>Manage room availability</li>
+                <li>View today's check-ins/check-outs</li>
+            </ul>
+        </section>
+
+        <!-- Page Management -->
+        <section id="page-management" class="doc-section">
+            <h2 class="section-title">Page Management</h2>
+            
+            <p>The CMS allows you to edit all public-facing pages without touching code:</p>
+            
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>Page</th>
+                        <th>Admin Route</th>
+                        <th>Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Home Page</td>
+                        <td>/admin/home-page</td>
+                        <td>Hero, Services, Rooms, Testimonials</td>
+                    </tr>
+                    <tr>
+                        <td>About Page</td>
+                        <td>/admin/about-page</td>
+                        <td>Hero, History, Features, Quotes</td>
+                    </tr>
+                    <tr>
+                        <td>Rooms Page</td>
+                        <td>/admin/rooms-page</td>
+                        <td>Room listings, Filters</td>
+                    </tr>
+                    <tr>
+                        <td>Restaurant Page</td>
+                        <td>/admin/restaurant-page</td>
+                        <td>Menu, Gallery, Reservations</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Page</td>
+                        <td>/admin/contact-page</td>
+                        <td>Contact form, Map, Info</td>
+                    </tr>
+                    <tr>
+                        <td>Services Page</td>
+                        <td>/admin/services-page</td>
+                        <td>Service listings</td>
+                    </tr>
+                    <tr>
+                        <td>Gallery Page</td>
+                        <td>/admin/rooms-gallery-page</td>
+                        <td>Image gallery</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4 class="subsection-title">Section Visibility</h4>
+            <p>Each page section can be shown or hidden using toggle switches. Hidden sections won't appear on the public website.</p>
+            
+            <h4 class="subsection-title">Section Ordering</h4>
+            <p>Drag and drop sections to reorder them. The order is saved automatically and reflected on the public website.</p>
+            
+            <h4 class="subsection-title">Page Styles</h4>
+            <p>Each page supports custom styling:</p>
+            <ul class="feature-list">
+                <li>Background Color</li>
+                <li>Text Color</li>
+                <li>Heading Color</li>
+                <li>Accent Color</li>
+                <li>Background Image</li>
+                <li>Custom CSS</li>
+            </ul>
+        </section>
+
+        <!-- Site Settings -->
+        <section id="site-settings" class="doc-section">
+            <h2 class="section-title">Site Settings</h2>
+            
+            <p>Global site settings are managed at <code>/admin/site-settings</code>:</p>
+            
+            <h4 class="subsection-title">General Settings</h4>
+            <ul class="feature-list">
+                <li>Site Name</li>
+                <li>Site Logo</li>
+                <li>Favicon</li>
+                <li>Contact Information</li>
+                <li>Social Media Links</li>
+            </ul>
+            
+            <h4 class="subsection-title">Currency Settings</h4>
+            <ul class="feature-list">
+                <li>Currency Code (USD, EUR, GBP, etc.)</li>
+                <li>Currency Symbol</li>
+                <li>Symbol Position (Before/After)</li>
+            </ul>
+            
+            <h4 class="subsection-title">SEO Settings</h4>
+            <ul class="feature-list">
+                <li>Meta Title</li>
+                <li>Meta Description</li>
+                <li>Meta Keywords</li>
+            </ul>
+        </section>
+
+        <!-- Theme Settings -->
+        <section id="theme-settings" class="doc-section">
+            <h2 class="section-title">Theme Settings</h2>
+            
+            <p>Customize the look and feel at <code>/admin/theme-settings</code>:</p>
+            
+            <h4 class="subsection-title">Color Scheme</h4>
+            <ul class="feature-list">
+                <li>Primary Color</li>
+                <li>Secondary Color</li>
+                <li>Accent Color</li>
+                <li>Background Color</li>
+                <li>Text Color</li>
+                <li>Heading Color</li>
+            </ul>
+            
+            <h4 class="subsection-title">Typography</h4>
+            <ul class="feature-list">
+                <li>Primary Font</li>
+                <li>Secondary Font</li>
+                <li>Base Font Size</li>
+            </ul>
+            
+            <h4 class="subsection-title">Layout Options</h4>
+            <ul class="feature-list">
+                <li>Boxed Layout</li>
+                <li>Header Style (Dark/Light/Transparent)</li>
+                <li>Sticky Header</li>
+                <li>Show Top Bar</li>
+            </ul>
+        </section>
+
+        <!-- CMS Features -->
+        <section id="cms-features" class="doc-section">
+            <h2 class="section-title">CMS Features</h2>
+            
+            <h4 class="subsection-title">Content Management Pattern</h4>
+            <p>Each page uses a settings model with:</p>
+            
+            <ul class="feature-list">
+                <li><strong>sections</strong> - Toggle visibility of each section</li>
+                <li><strong>section_order</strong> - Drag-drop ordering</li>
+                <li><strong>page_styles</strong> - Per-page color and CSS customization</li>
+                <li><strong>content</strong> - Key-value JSON for all editable content</li>
+            </ul>
+            
+            <h4 class="subsection-title">Image Handling</h4>
+            <p>Always use the ImageHelper for image paths:</p>
+            
+            <pre><code>// In Blade templates
+{{ \App\Helpers\ImageHelper::url($path, '/assets/img/default.jpg') }}
+
+// Using the @imgUrl directive
+@imgUrl($path, '/assets/img/default.jpg')</code></pre>
+            
+            <h4 class="subsection-title">Reset to Default</h4>
+            <p>Each page has a "Reset to Default" button that restores:</p>
+            <ul class="feature-list">
+                <li>Section visibility</li>
+                <li>Section order</li>
+                <li>Page styles</li>
+            </ul>
+        </section>
+
+        <!-- Services Management -->
+        <section id="services-management" class="doc-section">
+            <h2 class="section-title">Services Management</h2>
+            
+            <p>Manage all hotel services displayed on the Services page and Services Grid section of the Home page.</p>
+            
+            <h4 class="subsection-title">Services Page Settings</h4>
+            <p>Access at: <code>/admin/services-page</code></p>
+            <ul class="feature-list">
+                <li><strong>Hero Section</strong> - Banner image and title</li>
+                <li><strong>Services Grid</strong> - All hotel services with icons and descriptions</li>
+                <li><strong>Section Visibility</strong> - Toggle sections on/off</li>
+                <li><strong>Section Order</strong> - Drag and drop to reorder</li>
+            </ul>
+            
+            <h4 class="subsection-title">Service Items</h4>
+            <p>Each service includes:</p>
+            <ul class="feature-list">
+                <li>Service Icon (Font Awesome)</li>
+                <li>Service Title</li>
+                <li>Service Description</li>
+                <li>Link URL (optional)</li>
+            </ul>
+            
+            <h4 class="subsection-title">Home Page Services Grid</h4>
+            <p>The Services Grid on the Home page showcases featured services. Configure at <code>/admin/home-page</code> under the Services section.</p>
+        </section>
+
+        <!-- Room Management -->
+        <section id="room-management" class="doc-section">
+            <h2 class="section-title">Room Management</h2>
+            
+            <h4 class="subsection-title">Room Types</h4>
+            <p>Create and manage room types with:</p>
+            <ul class="feature-list">
+                <li>Name and Description</li>
+                <li>Base Price</li>
+                <li>Maximum Occupancy</li>
+                <li>Amenities</li>
+                <li>Images Gallery</li>
+            </ul>
+            
+            <h4 class="subsection-title">Individual Rooms</h4>
+            <p>Each room has:</p>
+            <ul class="feature-list">
+                <li>Room Number</li>
+                <li>Floor</li>
+                <li>Room Type Association</li>
+                <li>Status (Available/Occupied/Maintenance)</li>
+            </ul>
+            
+            <h4 class="subsection-title">Pricing</h4>
+            <p>Support for seasonal pricing with date ranges and special rates.</p>
+        </section>
+
+        <!-- Booking System -->
+        <section id="booking-system" class="doc-section">
+            <h2 class="section-title">Booking System</h2>
+            
+            <h4 class="subsection-title">Booking Flow</h4>
+            <ol>
+                <li>Guest searches for available rooms (date range, guests)</li>
+                <li>System shows available rooms with prices</li>
+                <li>Guest selects room and enters details</li>
+                <li>Booking is created with unique booking number</li>
+                <li>Confirmation email sent to guest</li>
+            </ol>
+            
+            <h4 class="subsection-title">Booking Number Format</h4>
+            <pre><code>BK{YYYYMMDD}{RANDOM}
+Example: BK202601081234</code></pre>
+            
+            <h4 class="subsection-title">Booking Statuses</h4>
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pending</td>
+                        <td>Awaiting confirmation</td>
+                    </tr>
+                    <tr>
+                        <td>Confirmed</td>
+                        <td>Booking confirmed</td>
+                    </tr>
+                    <tr>
+                        <td>Checked In</td>
+                        <td>Guest has arrived</td>
+                    </tr>
+                    <tr>
+                        <td>Checked Out</td>
+                        <td>Guest has departed</td>
+                    </tr>
+                    <tr>
+                        <td>Cancelled</td>
+                        <td>Booking cancelled</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="doc-section">
+            <h2 class="section-title">Gallery</h2>
+            
+            <h4 class="subsection-title">Image Upload</h4>
+            <p>Supported formats: JPG, JPEG, PNG, GIF, WebP, SVG</p>
+            <p>Maximum file size: 10MB (configurable)</p>
+            
+            <h4 class="subsection-title">Image Categories</h4>
+            <ul class="feature-list">
+                <li>Rooms</li>
+                <li>Restaurant</li>
+                <li>Facilities</li>
+                <li>Events</li>
+                <li>Exterior</li>
+            </ul>
+        </section>
+
+        <!-- Security -->
+        <section id="security" class="doc-section">
+            <h2 class="section-title">Security</h2>
+            
+            <div class="alert-box alert-success">
+                <strong>Envato Security Standards Compliant</strong><br>
+                This application follows all Envato security requirements.
+            </div>
+            
+            <h4 class="subsection-title">CSRF Protection</h4>
+            <p>All forms include CSRF tokens. Laravel's built-in CSRF middleware is enabled.</p>
+            
+            <h4 class="subsection-title">Role-Based Access Control</h4>
+            <p>Using Spatie Laravel Permission package:</p>
+            <pre><code>// Middleware usage
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    // Admin routes
+});</code></pre>
+            
+            <h4 class="subsection-title">Password Security</h4>
+            <ul class="feature-list">
+                <li>Bcrypt hashing (12 rounds)</li>
+                <li>Minimum 8 characters required</li>
+                <li>Automatic hashing via model casting</li>
+            </ul>
+            
+            <h4 class="subsection-title">Input Validation & XSS Protection</h4>
+            <ul class="feature-list">
+                <li>Server-side validation on all inputs</li>
+                <li>Blade templating auto-escapes output</li>
+                <li>SanitizeInput middleware</li>
+                <li>Security headers (X-Frame-Options, X-XSS-Protection, etc.)</li>
+            </ul>
+            
+            <h4 class="subsection-title">Session Security</h4>
+            <ul class="feature-list">
+                <li>Encrypted sessions</li>
+                <li>HTTP-only cookies</li>
+                <li>SameSite cookie attribute</li>
+                <li>Session regeneration on login</li>
+                <li>Rate limiting on login (5 attempts/15 min)</li>
+            </ul>
+        </section>
+
+        <!-- API Reference -->
+        <section id="api" class="doc-section">
+            <h2 class="section-title">API Reference</h2>
+            
+            <h4 class="subsection-title">Authentication</h4>
+            <p>API uses Laravel Sanctum for token-based authentication:</p>
+            
+            <pre><code>// Request header
+Authorization: Bearer {your-api-token}</code></pre>
+            
+            <h4 class="subsection-title">Endpoints</h4>
+            <table class="doc-table">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Endpoint</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GET</td>
+                        <td>/api/rooms</td>
+                        <td>List all rooms</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>/api/rooms/{id}</td>
+                        <td>Get room details</td>
+                    </tr>
+                    <tr>
+                        <td>POST</td>
+                        <td>/api/bookings</td>
+                        <td>Create booking</td>
+                    </tr>
+                    <tr>
+                        <td>GET</td>
+                        <td>/api/bookings/{id}</td>
+                        <td>Get booking details</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Customization -->
+        <section id="customization" class="doc-section">
+            <h2 class="section-title">Customization</h2>
+            
+            <h4 class="subsection-title">File Structure</h4>
+            <div class="file-tree">
+                <ul>
+                    <li><span class="folder">📁 app/</span>
+                        <ul>
+                            <li><span class="folder">📁 Http/Controllers/</span> - Application controllers</li>
+                            <li><span class="folder">📁 Models/</span> - Eloquent models</li>
+                            <li><span class="folder">📁 Helpers/</span> - Helper classes</li>
+                        </ul>
+                    </li>
+                    <li><span class="folder">📁 resources/</span>
+                        <ul>
+                            <li><span class="folder">📁 views/</span> - Blade templates</li>
+                            <li><span class="folder">📁 css/</span> - Stylesheets</li>
+                            <li><span class="folder">📁 js/</span> - JavaScript files</li>
+                            <li><span class="folder">📁 img/</span> - Static images</li>
+                        </ul>
+                    </li>
+                    <li><span class="folder">📁 config/</span> - Configuration files</li>
+                    <li><span class="folder">📁 database/</span> - Migrations & seeders</li>
+                    <li><span class="folder">📁 routes/</span> - Route definitions</li>
+                </ul>
+            </div>
+            
+            <h4 class="subsection-title">Adding New Pages</h4>
+            <ol>
+                <li>Create migration with sections, section_order, page_styles, content columns</li>
+                <li>Create model extending base pattern</li>
+                <li>Create admin controller with edit(), update(), reset() methods</li>
+                <li>Create admin view with partials</li>
+                <li>Create public view</li>
+                <li>Add routes</li>
+            </ol>
+            
+            <h4 class="subsection-title">Custom CSS</h4>
+            <p>Add custom styles in Admin → Theme Settings → Custom CSS field, or edit:</p>
+            <pre><code>resources/css/custom.css</code></pre>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="doc-section">
+            <h2 class="section-title">FAQ</h2>
+            
+            <h4 class="subsection-title">How do I change the logo?</h4>
+            <p>Go to Admin → Site Settings → Upload your logo in the Logo field.</p>
+            
+            <h4 class="subsection-title">How do I add a new room type?</h4>
+            <p>Go to Admin → Room Types → Add New. Fill in the details and save.</p>
+            
+            <h4 class="subsection-title">How do I change colors?</h4>
+            <p>Go to Admin → Theme Settings → Color Scheme. Update colors and save.</p>
+            
+            <h4 class="subsection-title">How do I hide a section?</h4>
+            <p>Go to the page editor, find the section, and toggle the visibility switch off.</p>
+            
+            <h4 class="subsection-title">Can I use SQLite instead of MySQL?</h4>
+            <p>Yes! Change <code>DB_CONNECTION=sqlite</code> in your .env file and create a database.sqlite file in the database folder.</p>
+        </section>
+
+        <!-- Troubleshooting -->
+        <section id="troubleshooting" class="doc-section">
+            <h2 class="section-title">Troubleshooting</h2>
+            
+            <h4 class="subsection-title">500 Server Error</h4>
+            <div class="alert-box alert-warning">
+                <ol>
+                    <li>Check storage and bootstrap/cache permissions (755)</li>
+                    <li>Ensure .env file exists and is configured</li>
+                    <li>Run <code>php artisan key:generate</code></li>
+                    <li>Check PHP version (8.2+ required)</li>
+                </ol>
+            </div>
+            
+            <h4 class="subsection-title">Images Not Loading</h4>
+            <div class="alert-box alert-warning">
+                <ol>
+                    <li>Run <code>php artisan storage:link</code></li>
+                    <li>Check file permissions</li>
+                    <li>Verify image paths in database</li>
+                </ol>
+            </div>
+            
+            <h4 class="subsection-title">Session/Login Issues</h4>
+            <div class="alert-box alert-warning">
+                <ol>
+                    <li>Clear cache: <code>php artisan cache:clear</code></li>
+                    <li>Clear sessions: <code>php artisan session:clear</code></li>
+                    <li>Check SESSION_DRIVER in .env</li>
+                </ol>
+            </div>
+            
+            <h4 class="subsection-title">Clear All Caches</h4>
+            <pre><code>php artisan config:clear
+php artisan cache:clear
+php artisan route:clear
+php artisan view:clear</code></pre>
+        </section>
+
+        <!-- Changelog -->
+        <section id="changelog" class="doc-section">
+            <h2 class="section-title">Changelog</h2>
+            
+            <h4 class="subsection-title">Version 1.0.0 <span class="badge-version">Latest</span></h4>
+            <p><em>January 8, 2026</em></p>
+            <ul class="feature-list">
+                <li>Initial release</li>
+                <li>Full CMS with page management</li>
+                <li>Room & booking system</li>
+                <li>Theme customization</li>
+                <li>Multi-currency support</li>
+                <li>Section drag & drop ordering</li>
+                <li>Security features (CSRF, XSS, Rate limiting)</li>
+                <li>Installation wizard</li>
+            </ul>
+        </section>
+
+        <!-- Support -->
+        <section id="support" class="doc-section">
+            <h2 class="section-title">Support</h2>
+            
+            <div class="alert-box alert-info">
+                <strong>Support Includes:</strong>
+                <ul class="mt-2 mb-0">
+                    <li>Answering questions about how to use the item</li>
+                    <li>Answering technical questions about the item</li>
+                    <li>Help with defects in the item</li>
+                    <li>Item updates to ensure compatibility</li>
+                </ul>
+            </div>
+            
+            <h4 class="subsection-title">Before Contacting Support</h4>
+            <ol>
+                <li>Read this documentation thoroughly</li>
+                <li>Check the FAQ section</li>
+                <li>Check the Troubleshooting section</li>
+                <li>Search the comments section on CodeCanyon</li>
+            </ol>
+            
+            <h4 class="subsection-title">How to Get Support</h4>
+            <p>Contact us through the CodeCanyon item comments or via email with:</p>
+            <ul class="feature-list">
+                <li>Your purchase code</li>
+                <li>Detailed description of the issue</li>
+                <li>Steps to reproduce the problem</li>
+                <li>Screenshots if applicable</li>
+                <li>PHP and Laravel version</li>
+            </ul>
+            
+            <div class="alert-box alert-danger">
+                <strong>Support Does NOT Include:</strong>
+                <ul class="mt-2 mb-0">
+                    <li>Customization and installation services</li>
+                    <li>Support for third-party plugins</li>
+                    <li>Support for modified versions</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="text-center py-5 mt-5 border-top">
+            <p class="text-muted">© 2026 Vermon Hotel & Bar. All rights reserved.</p>
+            <p class="text-muted small">Documentation Version 1.0</p>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Sidebar navigation
+        document.querySelectorAll('.sidebar-nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.sidebar-nav a').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Mobile toggle
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+
+        // Highlight active section on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.doc-section');
+            const navLinks = document.querySelectorAll('.sidebar-nav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

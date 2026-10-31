@@ -1,0 +1,615 @@
+================================================================================
+                    VIZIT HOTEL & SUITES BAR - WEBSITE CONTENT
+================================================================================
+                          Location: Benin city, Edo state, Nigeria.
+                          Currency: Nigerian Naira (₦)
+================================================================================
+
+
+================================================================================
+SITE SETTINGS (Admin > Site Settings)
+================================================================================
+
+Site Name: Vizit Hotel & Suites
+Header Phone: +234 816 325 9205
+Header Email: info@Vizithotel&suites.com / vizit.hotel.suites@gmail.com 
+Header Address: 2 Namuna street off godwin abbe way limit sapele road Benin city, Edo, Nigeria
+
+Footer Subtitle: get in touch
+Footer Title: contact us today
+Footer About: Vizit Hotel & Suites offers an exceptional blend of luxury accommodation and vibrant entertainment in the heart of Lagos. Experience Nigerian hospitality at its finest with world-class amenities and personalized service.
+Footer Phone: +234 816 325 9205
+Footer Email: reservations@Vizithotel&suites.com / vizit.hotel.suites@gmail.com 
+Footer Address: 2 Namuna street off godwin abbe way limit sapele road Benin city, Edo, Nigeria
+Footer Copyright: © 2025 Vizit Hotel & Suites. All rights reserved.
+
+Check-In Time: 2:00 PM
+Check-Out Time: 12:00 PM
+Opening Hours: 24 Hours
+
+Social Media:
+- Bookings: https://www.booking.com/hotel/ng/vizit-amp-suites.html?chal_t=1768203765916&force_referer=https%3A%2F%2Fwww.google.com%2F
+- Tiktok: https://www.tiktok.com/@vizithotelandsuites?_r=1&_t=ZS-930KienLb4J
+- Instagram: https://www.instagram.com/vizit_hotelsuites?igsh=MThobnljY3pmcXE1ZQ==
+- TripAdvisor: https://www.tripadvisor.com/Hotel_Review-g298361-d33974433-Reviews-Vizit_Hotel_Suites-Benin_City_Edo_State.html
+
+Notification Email: admin@Vizithotel&suites.com
+
+
+================================================================================
+HOME PAGE (Admin > Home Page)
+================================================================================
+
+SEO Title: Vizit Hotel & Suites - Luxury Accommodation in Benin city, Edo State Nigeria
+SEO Description: Experience unparalleled luxury at Vizit Hotel & Suites in Benin city, Edo State. Premium rooms, exquisite dining, refreshing pool, and world-class bar services await you.
+
+--- HERO SECTION ---
+Hero Title: Experience<br>True Luxury
+
+--- INTRO SECTION ---
+Intro Subtitle: Vizit Hotel & Suites
+Intro Title: Welcome to a World of Elegance
+Intro Text: Nestled in the vibrant heart of Benin City, Edo state, Vizit Hotel & Suites redefines luxury hospitality in Nigeria. Our establishment combines sophisticated accommodation with exceptional dining and entertainment, creating an unforgettable experience for business and leisure travelers alike. From our meticulously designed rooms to our world-class restaurant and bar, every detail is crafted to exceed your expectations.
+
+--- FEATURE 1 (Pearl Room) ---
+Feature 1 Label: Pearl Room
+Feature 1 Price: 43,500
+Feature 1 Text: Comfortable and well-equipped room offering excellent value. Features all essential amenities for a pleasant stay.
+Feature 1 Button Text: check availability
+
+
+--- FEATURE 2 (Crest Room) ---
+Feature 2 Label: Crest Room 
+Feature 2 Price: 60,000
+Feature 2 Text: Our Crest Rooms offer the perfect balance of comfort and style. Enjoy modern amenities, plush furnishings, and thoughtful touches that make your stay memorable. Ideal for both business and leisure travelers.
+Feature 2 Button Text: check availability
+
+
+--- FEATURE 3 (Royal Crest Room) ---
+Feature 2 Label: Royal Crest Room 
+Feature 2 Price: 65,000
+Feature 2 Text: Rest peacefully on our premium king-sized beds featuring Egyptian cotton linens, memory foam mattresses, and luxury pillows for the ultimate sleep experience.
+Feature 2 Button Text: check availability
+
+
+--- FEATURE 4 (Rosewood Suite) ---
+Feature 2 Label: Rosewood Suite 
+Feature 2 Price: 85,000
+Feature 2 Text: The pinnacle of luxury with separate living area / meeting area, featuring a premium bedding and stunning city views, memory foam mattresses, and luxury pillows for the ultimate sleep experience.
+Feature 2 Button Text: check availability
+
+--- FEATURE 5 (The Monarch) ---
+Feature 2 Label: The Monarch
+Feature 2 Price: 128,000
+Feature 2 Text: The Perfect comfort for family featuring double bed, Nice views. Perfect for Family getaway and special occasions.
+Feature 2 Button Text: check availability
+
+
+
+--- SERVICES GRID ---
+Service 1 Title: Restaurant
+Service 2 Title: Swimming Pool
+Service 3 Title: Bar & Lounge
+
+
+--- AMENITIES SECTION ---
+Amenities Subtitle: premium amenities
+Amenities Title: Luxury at Every Turn
+
+
+Amenity 3 Title: Airport Transfer
+Amenity 3 Text: Complimentary airport pickup and drop-off services available for all guests. Our professional drivers ensure a comfortable journey.
+
+
+Amenity 4 Title: Welcome Drinks
+Amenity 4 Text: Start your stay with a refreshing complimentary welcome drink served upon arrival. Choose from our selection of fresh juices, cocktails, or premium beverages.
+
+Amenity 5 Title: Swimming Pool
+Amenity 5 Text: Dive into relaxation at our stunning rooftop swimming pool. Enjoy panoramic city views, poolside service, and a refreshing escape tropical heat.
+
+Amenity 6 Title: Breakfast Included
+Amenity 6 Text: Wake up to a complimentary breakfast featuring Nigerian and continental options. Fresh fruits, pastries, hot dishes, and premium coffee await you each morning.
+
+
+--- ROOMS SECTION ---
+Rooms Subtitle: accommodation
+Rooms Title: Our Premium Rooms
+
+
+--- FEATURE 1 (Pearl Room) ---
+Feature 1 Label: Pearl Room
+Feature 1 Price: 43,500
+Feature 1 Text: Comfortable and well-equipped room offering excellent value. Features all essential amenities for a pleasant stay.
+Feature 1 Button Text: check availability
+
+
+--- FEATURE 2 (Crest Room) ---
+Feature 2 Label: Crest Room 
+Feature 2 Price: 60,000
+Feature 2 Text: Our Crest Rooms offer the perfect balance of comfort and style. Enjoy modern amenities, plush furnishings, and thoughtful touches that make your stay memorable. Ideal for both business and leisure travelers.
+Feature 2 Button Text: check availability
+
+
+--- FEATURE 3 (Royal Crest Room) ---
+Feature 2 Label: Royal Crest Room 
+Feature 2 Price: 65,000
+Feature 2 Text: Rest peacefully on our premium king-sized beds featuring Egyptian cotton linens, memory foam mattresses, and luxury pillows for the ultimate sleep experience.
+Feature 2 Button Text: check availability
+
+
+--- FEATURE 4 (Rosewood Suite) ---
+Feature 2 Label: Rosewood Suite 
+Feature 2 Price: 85,000
+Feature 2 Text: The pinnacle of luxury with separate living area / meeting area, featuring a premium bedding and stunning city views, memory foam mattresses, and luxury pillows for the ultimate sleep experience.
+Feature 2 Button Text: check availability
+
+--- FEATURE 5 (The Monarch) ---
+Feature 2 Label: The Monarch
+Feature 2 Price: 128,000
+Feature 2 Text: The Perfect comfort for family featuring double bed, Nice views. Perfect for Family getaway and special occasions.
+Feature 2 Button Text: check availability
+
+
+
+TERMS & CONDITIONS
+- All prices include breakfast for 1 person and free swimming
+- Check-in-time is 2:00pm, Check-out-time is 12:00 Noon
+- Early check-in is subject to room availability
+- Late check-out attracts a surcharge as follows; Before 4:oopm 50% of room rate, After 4:oopm 100% of room rate.
+- Payment in full or a valid credit card guarantees the booking.
+- Early check-out will be paid in full
+- No-show fee will be charged in full for the first night booked
+- Cancellations made less than 24hours before arrival will be charged in full
+- Maximum occupancy per room is two (2) persons. Exceeding this limit is not permitted. 
+
+
+
+
+--- TESTIMONIALS/QUOTES ---
+Quote 1 Text: The service at Vizit Hotel & Suites exceeded all my expectations. From check-in to checkout, every staff member made me feel like royalty. I'll definitely return!
+Quote 1 Author: Chief Emeka Okonkwo, Lagos
+
+Quote 2 Text: As a frequent business traveler, I've stayed at many hotels in Benin city. Vizit Hotel & suites stands out for its attention to detail, excellent restaurant, and professional staff.
+Quote 2 Author: Dr. Amina Ibrahim, Abuja
+
+Quote 3 Text: We celebrated our anniversary at Vizit Hotel & Suites and it was magical. The room was beautiful, the food was exceptional, and the atmosphere was perfect.
+Quote 3 Author: Mr. & Mrs. Adeyemi, Port Harcourt
+
+
+--- VIDEO SECTION ---
+Video Title: Discover Our Story
+Video Subtitle: virtual tour, 2:30 min
+
+--- RESTAURANTS SECTION ---
+Restaurants Subtitle: fine dining
+Restaurants Title: Culinary Excellence
+
+Restaurant 1 Title: The Vizit Restaurant
+Restaurant 1 Text: Experience culinary artistry at The Vizit Restaurant. Our expert chefs blend Nigerian flavors with international techniques to create unforgettable dishes using the freshest local ingredients.
+Restaurant 1 Button: view menu
+
+Restaurant 2 Title: Rooftop Sit-out
+Restaurant 2 Text: Unwind at our Rooftop Sit-out with stunning views.
+Restaurant 2 Button: Rooftop Sit-out
+
+
+================================================================================
+ABOUT PAGE (Admin > About Page)
+================================================================================
+
+SEO Title: About Us - Vizit Hotel & Suites | Our Story
+SEO Description: Learn about Vizit Hotel & Suites commitment to excellence in hospitality. Discover our story, values, and dedication to providing exceptional guest experiences in Benin city.
+
+--- HERO SECTION ---
+Hero Title: Our Story
+
+--- VIDEO PRESENTATION ---
+Video Subtitle: A Legacy of Excellence
+Video Duration: our story, 3:15 min
+
+--- ABOUT SERVICES SECTION ---
+About Services Subtitle: why choose us
+About Services Title: Exceptional Hospitality
+
+Service 1 Title: Welcome Experience
+Service 1 Text: From the moment you arrive, our dedicated team ensures a warm Nigerian welcome. Complimentary drinks, swift check-in, and personalized attention set the tone for your stay.
+
+Service 2 Title: Premium Facilities
+Service 2 Text: Our world-class swimming pool provide everything you need for relaxation and rejuvenation during your stay.
+
+Service 3 Title: Culinary Excellence
+Service 3 Text: Our restaurants serve a fusion of Nigerian delicacies and international cuisine. All meals are prepared with fresh, locally-sourced ingredients by our award-winning chefs.
+
+--- FEATURES PAIR ---
+Feature 1 Label: luxury suites
+Feature 1 Title: Uncompromising Comfort
+Feature 1 Text: Every room at Vizit Hotel & Suites is designed with your comfort in mind. From premium bedding to modern technology, we've thoughtfully curated every detail. Our spacious suites feature separate living areas, work desks, and stunning views of benin city.
+
+Feature 2 Label: world-class service
+Feature 2 Title: Service Excellence
+Feature 2 Text: Our professionally trained staff are available 24/7 to cater to your every need. Whether it's arranging transportation, making restaurant reservations, or fulfilling special requests, we go above and beyond to ensure your satisfaction.
+
+--- TESTIMONIALS ---
+Quote 1 Text: Vizit Hotel & Suites represents the best of Nigerian hospitality. The staff's attention to detail and genuine warmth made my business trip feel like a vacation.
+Quote 1 Author: Ambassador James Oluwole
+
+Quote 2 Text: I've been coming here for years and the consistency in quality is remarkable. The rooms are always immaculate, and the food never disappoints. Highly recommended!
+Quote 2 Author: Senator Patricia Nwosu
+
+
+
+
+================================================================================
+CONTACT PAGE (Admin > Contact Page)
+================================================================================
+
+SEO Title: Contact Us - Vizit Hotel & Suites
+SEO Description: Get in touch with Vizit Hotel & Suites. Contact us for reservations, inquiries, or to plan your perfect stay in benin city, edo state Nigeria.
+
+--- HERO SECTION ---
+Hero Title: Contact Us
+
+--- VIDEO SECTION ---
+Video Tagline: We're Here to Help
+Video Label: contact overview, 1:30 min
+
+--- CONTACT FORM SECTION ---
+Form Subtitle: reach out to us
+Form Title: Send Us a Message
+
+--- CONTACT INFO ---
+Info Address: 2 Namuna street off godwin abbe way limit sapele road Benin city, Edo, Nigeria
+Info City: Benin city, Edo state
+Info Phone: +234 816 325 9205
+Info Email: reservations@Vizithotel&suites.com
+Info Check-In: 2:00 PM
+Info Check-Out: 12:00 PM
+Info Hours: 24 Hours Daily
+
+Newsletter Button: subscribe now
+
+
+================================================================================
+SERVICES PAGE (Admin > Services Page)
+================================================================================
+
+SEO Title: Our Services - Vizit hotel & suites
+
+SEO Description: Discover the premium services at Vizit hotel & suites including mini mart, restaurant, pool, Bar and more. Experience luxury hospitality in Benin city.
+
+--- HERO SECTION ---
+Hero Title: Our Services
+
+--- VIDEO SECTION ---
+Video Tagline: Excellence in Every Detail
+Video Label: services overview, 2:00 min
+
+--- SERVICES BOXES ---
+Services Subtitle: premium offerings
+Services Title: World-Class Amenities
+
+Box 1 Title: Smoke-Free Environment
+Box 1 Description: Breathe easy in our completely smoke-free rooms and common areas. We maintain the highest air quality standards for your health and comfort. Designated outdoor smoking areas available.
+
+Box 2 Title: Luxury Bedding
+Box 2 Description: Sink into our premium king-sized beds featuring 400-thread count cotton sheets, plush duvets, and a pillow menu to customize your perfect night's sleep.
+
+Box 3 Title: Airport Transfers
+Box 3 Description: Enjoy complimentary luxury airport transfers in our air-conditioned vehicles. Our professional drivers track your flight and ensure punctual pickup and drop-off services.
+
+Box 4 Title: Welcome Refreshments
+Box 4 Description: Begin your stay with our signature welcome drink service. Choose from fresh tropical juices, premium wines, or expertly crafted cocktails upon arrival.
+
+Box 5 Title: Rooftop sit-out
+Box 5 Description: Our stunning rooftop sit-out offers breathtaking views.
+
+
+--- SERVICE OFFERS ---
+Offers Subtitle: exclusive services
+Offers Title: What We Offer
+
+
+Service 2 Title: The Vizit Restaurant
+Service 2 Description: Our flagship restaurant serves breakfast, lunch, and dinner daily. Experience a blend of Nigerian and continental cuisine prepared with the freshest ingredients by our culinary team.
+
+Service 3 Title: Swimming Pool
+Service 3 Description: Our pool area Perfect for relaxation or hosting intimate gatherings.
+
+
+
+================================================================================
+RESTAURANT PAGE (Admin > Restaurant Page)
+================================================================================
+
+SEO Title: Restaurant & Dining - Vizit Hotel & Suites
+SEO Description: Enjoy exceptional dining at Vizit Hotel & Suites. Our restaurants serve authentic Nigerian cuisine and international dishes prepared by expert chefs.
+
+--- HERO SECTION ---
+Hero Title: Restaurant
+
+--- VIDEO SECTION ---
+Video Tagline: Culinary Excellence Awaits
+
+--- MENU SECTION ---
+Menu Subtitle: our specialties
+Menu Title: Featured Menu
+
+--- SAMPLE MENU ITEMS (Add via Admin > Food Menu) ---
+
+Meals:
+- Jollof Rice: ₦3,000 
+- Fried Rice: ₦3,000
+- White Rice: ₦3,000
+- Basmati Rice: ₦6,000
+- Coconut Rice (On Request): ₦3,000
+- Special Fried Rice (On Request): ₦8,000
+- Native Rice (On Request): ₦8,000
+- Jamaican Rice (On Request): ₦6,000
+- Seafood Jollof (On Request): ₦8,000
+- Signature Rice (On Request): ₦8,000
+
+
+Pasta:
+- Vegetable Noodles: ₦3,000
+- Jollof Spaghetti: ₦3,000
+- White Spaghetti: ₦3,000
+- Spaghetti Bolognese: ₦6,000
+- Stir Fry Pasta: ₦6,000
+- Alfredo Pasta (Creamy) (On Request): ₦6,000
+- Seafood Pasta (On Request): ₦8,000
+- Penne Arabiata (On Request): ₦6,000
+
+
+Proteins:
+- Turkey: ₦8,000
+- Chicken: ₦6,000
+- Goat Meat: ₦6,000
+- Beef: ₦5,000
+- Snail (One Portion): ₦10,000
+- Sauced Kpomo: ₦5,000
+- Assorted: ₦7,000
+- Cow Head: ₦6,000
+- Meluza Fish: ₦6,000
+- Croaker Fish: ₦9,000
+- Titus Fish: ₦8,000
+- Catfish (Half): ₦8,000
+
+
+
+Pepper Soup:
+- Chicken Pepper Soup: ₦8,000
+- Goatmeat Pepper Soup: ₦8,000
+- Catfish Pepper Soup (One Portion): ₦8,000
+- Catfish Pepper soup (full Pot): ₦15,000
+- Ukodo (Full Catfish and Yam): ₦18,000
+- Ukodo (Half catfish and Yam): ₦11,000
+- Assorted Pepper soup: ₦7,000
+- Croacker Pepper soup: ₦10,000
+
+
+
+Soups:
+- Egusi Soup: ₦3,000
+- Ogbono Soup: ₦3,000
+- Banga Soup: ₦3,000
+- Black Soup: ₦3,000
+- Vegetable Soup: ₦4,000
+- Okro Soup: ₦4,000
+- Bitterleaf Soup: ₦3,000
+- Oha Soup: ₦3,000
+- Seafood Okro (On Request): ₦15,000
+- Fisherman Soup (On Request): ₦20,000 
+
+
+
+Swallows:
+- Poundo: ₦2,000
+- Semo: ₦2,000
+- Eba: ₦2,000
+- Starch: ₦2,000
+
+
+African:
+- Yam Chips/Boiled Yam: ₦3,000
+- Fried Plantain/Boiled Plantain: ₦3,000
+- Fried/Boiled Sweet Potato: ₦3,000
+- Boiled Irish Potato: ₦3,000
+- Porridge Yam: ₦3,000
+- Porridge Beans: ₦3,000
+- Moi-Moi: ₦2,000
+- Akara: ₦2,000
+- Custard: ₦1,500
+- Oat Meal: ₦1,500
+- Boiled/Fried Eggs: ₦2,000
+- Salad: ₦2,000
+
+
+Sauces:
+- Egg Sauce: ₦2,500
+- Vegetable Sauce: ₦2,000
+- Tomato Sauce: ₦2,000
+- Garden Egg Sauce: ₦2,000
+- Fish Sauce: ₦2,500 
+
+
+
+Intercontinetal (On Request)
+- Toasted Bread or Fresh Bread with Tea or Coffee: ₦3,000
+- Pancakes (On Request): ₦2,000
+- Waffles (On Request): ₦2,000
+- Toasted Bread, Sausage, Baked Bean, Omellete. Tea or Coffee: ₦7,000
+- Club Sandwish: ₦4,000
+- French Fries: ₦3,000
+
+
+
+Grill Hot Plate:
+- Chicken & Chips: ₦9,000
+- Barbecue Fish (catfish), Chips & Salad: ₦10,000
+- Barbecue with Bole, Chips & Salad: ₦13,000
+- Isi Ewu (Full Goat Head): ₦10,000
+- Nkwobi (Cow Head): ₦10,000
+
+
+
+
+Drinks:
+- Water: ₦800
+- Fresh Juice: ₦3,000
+- Amstel Malt: ₦2,000
+- Malta Guinness: ₦2,000
+- Hollandia: ₦3,500
+- Chi-Exotic: ₦3,500
+- Chi-Active: ₦3,500
+- Vitamilk: ₦3,500
+- Foyrous: ₦1,000
+- Soda (Coke, Fanta, Sprite): ₦1,000
+
+
+
+- Fearless: ₦1,500
+- Predator: ₦1,500
+- Monster: ₦2,500
+- Power Horse: ₦2,500
+- Red Bull: ₦2,500
+- Blue Bullet: ₦2,500
+- Black Bullet: ₦3,000
+- Double Balck: ₦2,500
+- Origin Bitters: ₦3,000
+
+
+- Henieken (Medium): ₦2,500
+- Henieken (Large): ₦3,000
+- "33" Export: ₦2,500
+- Goldberg: ₦2,500
+- Goldberg Black: ₦3,000
+- Stout (Medium): ₦2,500
+- Smirnoff Ice (Big): ₦3,500
+- Trophy: ₦2,500
+- Hero: ₦2,500
+- Big Williams: ₦3,000
+- Gulder: ₦2,500
+- Tiger: ₦2,000
+- Desperado: ₦2,500
+- Star Radgler: ₦2,500
+
+
+
+- Andre: ₦30,000
+- Martini Rose: ₦30,000
+- Baron De Valls: ₦20,000
+- Four Cousin: ₦20,000
+- Carlo Rossi: ₦20,000
+- Friends & Family: ₦20,000
+- Agor: ₦20,000
+- Drevnii Monah: ₦ ----
+
+
+
+- Small Best Cream: ₦5,000
+- Small William Lawson: ₦10,000
+- Big William Lawson: ₦35,000
+- Small Campari: ₦12,000
+- Big Campari: ₦45,000
+- Omelca Tequila: ₦55,000
+- Small Smirnoff Vodka: ₦5,000
+- Big Smirnoff Vodka: ₦15,000
+- Jaggermeister: ₦30,000
+- Jameson Green: ₦45,000
+- Jameson Black: ₦75,000
+- Black Label: ₦75,000
+- Martell VS: ₦120,000
+- Martell Blue Swift: ₦170,000
+- Hennessey VS: ₦80,000
+- Hennessey VSOP: ₦160,000
+- Glenfiddich 12YRS: ₦130,000
+- Glenfiddich 15YRS: ₦160,000
+- Glenfiddich 18YRS: ₦250,000
+
+
+
+
+Cocktails, Mocktails, Chapman:
+- Blue Lagoon: ₦6,000
+- Margarita: ₦8,000
+- Teguila Sunrise: ₦6,000
+- Pina Colada: ₦8,000
+- Screwdriver: ₦6,000
+- Blue Haven: ₦8,000
+- Sex on the Beach: ₦8,000
+- Wet Pussy: ₦8,000
+- Long Island: ₦8,000
+- Alcoholic Chapman: ₦8,000
+- Non Alcoholic Chapman: ₦5,000
+
+
+================================================================================
+GALLERY PAGE
+================================================================================
+
+SEO Title: Gallery - Vizit Hotel & Suites
+SEO Description: View photos of Vizit Hotel & Suites including our spacious rooms, restaurant, pool, bar, and facilities. See why we're benin's premier hotel.
+
+--- Recommended Gallery Categories ---
+- Rooms & Suites
+- Restaurant & Dining
+- Swimming Pool
+- Bar & Lounge
+- Exterior Views
+
+
+
+================================================================================
+EMAIL TEMPLATES
+================================================================================
+
+--- BOOKING CONFIRMATION EMAIL ---
+Subject: Booking Confirmation - Vizit Hotel & Suites
+
+Dear [Guest Name],
+
+Thank you for choosing Vizit Hotel & Suites. Your reservation has been confirmed!
+
+Booking Details:
+- Confirmation Number: [Number]
+- Check-in: [Date] at 2:00 PM
+- Check-out: [Date] at 12:00 PM
+- Room Type: [Room Type]
+- Total Amount: ₦[Amount]
+
+Hotel Address:
+2 Namuna street off godwin abbe way limit sapele road Benin city, Edo, Nigeria
+
+Contact Us:
+Phone: +234 816 325 9205
+info@Vizithotel&suites.com / vizit.hotel.suites@gmail.com
+
+We look forward to welcoming you!
+
+Warm regards,
+Vizit Hotel & Suites Team
+
+
+--- NEWSLETTER WELCOME EMAIL ---
+Subject: Welcome to Vizit Hotel & Suites Newsletter
+
+Dear Subscriber,
+
+Thank you for subscribing to our newsletter! You'll now receive exclusive offers, updates on special events, and the latest news from Vizit Hotel & Suites.
+
+
+Stay connected:
+- Website: www.Vizithotel&suites.com
+Phone: +234 816 325 9205
+info@Vizithotel&suites.com / vizit.hotel.suites@gmail.com
+2 Namuna street off godwin abbe way limit sapele road Benin city, Edo, Nigeria
+
+Warm regards,
+Vizit Hotel & Suites
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+
